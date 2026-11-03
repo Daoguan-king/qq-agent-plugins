@@ -513,10 +513,10 @@
     {
       "id": "sing",
       "name": "点歌唱歌",
-      "version": "1.0.4",
-      "description": "点歌唱歌 + 说话：群里说「用语音唱一首X」，机器人用你自己训练的音色翻唱并发 QQ 语音条，默认整首（长歌按 30 秒分段换声再拼回，整首 4 分钟约 22 秒）；非点歌文本交给 Breeze TTS 2 说话（云端 50 个音色，或本机权重自定义音色，按需加载、闲置自动退出）。⚠️ 换声与本地说话都要跑在使用者自己的电脑上，服务器只做转发。",
-      "author": "BAofanTing",
-      "homepage": "https://github.com/BAOfanTing/qq-agent-plus-singPlugin",
+      "version": "1.0.6",
+      "description": "点歌唱歌：群里说「用语音唱一首X」，机器人用你训练好的音色翻唱并发语音条；非点歌文本交给 Breeze TTS 说话。同一套后端仓库（say-sing-drawPlugin）还带本地画图（Qwen-Image-2.1-Turbo），但画图由宿主的「画图」设置指向同一网关，本插件本身不提供画图工具。⚠️ 唱歌/说话的换声与网关要跑在使用者自己的电脑上；本机没开时只会提示后端离线。",
+      "author": "BAOfanTing",
+      "homepage": "https://github.com/BAOfanTing/say-sing-drawPlugin",
       "apiVersion": 2,
       "minVersion": "0.9.10",
       "tags": [
@@ -531,12 +531,10 @@
         "config",
         "secrets",
         "http",
-        "media",
-        "send"
+        "storage"
       ],
-      "downloadUrl": "https://github.com/sakurawwwxh/qq-agent-plugins/releases/download/packages/sing-1.0.4.tar.gz",
-      "sha256": "972c5a36448028ab261915f13e983c8c544b5405dbc15c52014d4f38690bfbc3",
-      "downloads": 29
+      "downloadUrl": "https://github.com/sakurawwwxh/qq-agent-plugins/releases/download/packages/sing-1.0.6.tar.gz",
+      "sha256": "6a8ef1250601d68a1ed73d2a9b5c9a216a97428cbae9a959d8a39adcaf27bc63"
     }
   ]
 }
